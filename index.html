@@ -219,6 +219,15 @@
             color-scheme: light dark;
         }
 
+        /* Kullanici acikca sectiyse tarayicinin kendi kendine renk cevirmesini engelle */
+        :root[data-theme="light"] {
+            color-scheme: only light;
+        }
+
+        :root[data-theme="dark"] {
+            color-scheme: only dark;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             color: var(--text);
