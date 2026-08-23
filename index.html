@@ -17,11 +17,16 @@
     <meta property="og:url" content="https://vartmarked.no/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="nb_NO">
-    <meta property="og:image" content="https://vartmarked.no/images/og-image.jpg">
+    <meta property="og:image" content="https://aynuraozkasapoglu.github.io/vartmarked/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://aynuraozkasapoglu.github.io/vartmarked/og-image.jpg">
     <meta property="og:site_name" content="Vårt Marked">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%232d8a4e'/><g fill='none' stroke='%23ffffff' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'><path d='M13 18 L21 40 L29 18'/><path d='M33 40 V18 L41 30 L49 18 V40'/></g><rect x='21' y='46' width='22' height='4.5' rx='2.25' fill='%23ff6d00'/></svg>">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +72,9 @@
             }
         ],
         "priceRange": "$$",
-        "image": "https://vartmarked.no/images/store-front.jpg",
+        "image": "https://aynuraozkasapoglu.github.io/vartmarked/og-image.jpg",
+        "logo": "https://aynuraozkasapoglu.github.io/vartmarked/logo.png",
+        "slogan": "Kvalitet til lave priser",
         "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "NFC Mobile Payment", "Visa", "Mastercard", "American Express"],
         "currenciesAccepted": "NOK",
         "areaServed": ["Oslo", "Akershus", "Østfold", "Vestfold"],
@@ -154,19 +161,15 @@
         }
 
         .logo {
-            font-size: 1.6rem;
-            font-weight: 800;
-            color: var(--green-dark);
-            text-decoration: none;
             display: flex;
             align-items: center;
-            gap: 8px;
+            text-decoration: none;
+            flex-shrink: 0;
         }
 
-        .logo-mark {
-            width: 38px;
-            height: 38px;
-            flex-shrink: 0;
+        .logo img {
+            height: 44px;
+            width: auto;
             display: block;
         }
 
@@ -623,10 +626,11 @@
             gap: 10px;
         }
 
-        .footer-logo svg {
-            width: 32px;
-            height: 32px;
+        .footer-logo img {
+            width: 40px;
+            height: 40px;
             flex-shrink: 0;
+            display: block;
         }
 
         .footer-links {
@@ -675,6 +679,10 @@
 
         /* MOBILE */
         @media (max-width: 768px) {
+            .logo img {
+                height: 36px;
+            }
+
             .nav-links {
                 display: none;
                 position: fixed;
@@ -735,16 +743,8 @@
     <!-- HEADER -->
     <header id="header">
         <nav>
-            <a href="#" class="logo">
-                <svg class="logo-mark" viewBox="0 0 64 64" role="img" aria-label="Vårt Marked">
-                    <rect width="64" height="64" rx="16" fill="#2d8a4e"/>
-                    <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M13 18 L21 40 L29 18"/>
-                        <path d="M33 40 V18 L41 30 L49 18 V40"/>
-                    </g>
-                    <rect x="21" y="46" width="22" height="4.5" rx="2.25" fill="#ff6d00"/>
-                </svg>
-                Vårt Marked
+            <a href="#" class="logo" aria-label="Vårt Marked – forsiden">
+                <img src="logo.png" alt="Vårt Marked – Kvalitet til lave priser" width="856" height="193">
             </a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#om-oss">Om oss</a></li>
@@ -973,14 +973,7 @@
     <footer>
         <div class="footer-inner">
             <span class="footer-logo">
-                <svg viewBox="0 0 64 64" role="img" aria-label="Vårt Marked">
-                    <rect width="64" height="64" rx="16" fill="#2d8a4e"/>
-                    <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M13 18 L21 40 L29 18"/>
-                        <path d="M33 40 V18 L41 30 L49 18 V40"/>
-                    </g>
-                    <rect x="21" y="46" width="22" height="4.5" rx="2.25" fill="#ff6d00"/>
-                </svg>
+                <img src="logo-mark.png" alt="" width="193" height="193" loading="lazy">
                 Vårt Marked
             </span>
             <ul class="footer-links">
