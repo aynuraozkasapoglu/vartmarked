@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vårt Marked – Dagligvare, ferske grønnsaker og internasjonal mat i Oslo siden 1999</title>
+    <meta name="description" content="Vårt Marked på Fossumveien i Oslo. Over 3000 varer fra Norge, Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land. Ferske grønnsaker, frukt, kjøtt og spesialiteter siden 1999.">
+    <meta name="keywords" content="dagligvare oslo, grønnsaker oslo, frukt oslo, matvarer oslo, matbutikk fossumveien, Vårt Marked, VartMarked, internasjonal mat oslo, tyrkisk mat oslo, asiatisk mat oslo, helal mat oslo, bakkal oslo">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Vårt Marked">
+    <link rel="canonical" href="https://vartmarked.no/">
+    <link rel="alternate" hreflang="no" href="https://vartmarked.no/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Vårt Marked – Dagligvare og internasjonal mat i Oslo siden 1999">
+    <meta property="og:description" content="Over 3000 varer fra hele verden. Ferske grønnsaker, frukt, kjøtt og spesialiteter på Fossumveien i Oslo.">
+    <meta property="og:url" content="https://vartmarked.no/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nb_NO">
+    <meta property="og:image" content="https://vartmarked.no/images/og-image.jpg">
+    <meta property="og:site_name" content="Vårt Marked">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥬</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "GroceryStore",
+        "name": "Vårt Marked",
+        "alternateName": "VartMarked",
+        "description": "Dagligvarebutikk med over 3000 varer fra hele verden. Ferske grønnsaker, frukt, kjøtt og internasjonale spesialiteter siden 1999.",
+        "url": "https://vartmarked.no",
+        "telephone": "+47-92-24-90-05",
+        "email": "post@vartmarked.no",
+        "foundingDate": "1999-12-02",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Fossumveien 60",
+            "addressLocality": "Oslo",
+            "postalCode": "0988",
+            "addressCountry": "NO"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 59.962428,
+            "longitude": 10.9224773
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+                "opens": "08:00",
+                "closes": "21:00"
+            }
+        ],
+        "priceRange": "$$",
+        "image": "https://vartmarked.no/images/store-front.jpg",
+        "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "NFC Mobile Payment", "Visa", "Mastercard", "American Express"],
+        "currenciesAccepted": "NOK",
+        "areaServed": ["Oslo", "Akershus", "Østfold", "Vestfold"],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Våre produkter",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Ferske grønnsaker og frukt"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Kjøtt og sjømat"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Internasjonale matvarer"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Ferdigmat og salater"}}
+            ]
+        },
+        "sameAs": [
+            "https://www.facebook.com/vaartmarked",
+            "https://www.instagram.com/vaartmarked/",
+            "https://www.tiktok.com/@vaartmarked"
+        ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --green-dark: #1a5c2a;
+            --green: #2d8a4e;
+            --green-light: #4caf50;
+            --green-pale: #e8f5e9;
+            --orange: #ff6d00;
+            --orange-light: #fff3e0;
+            --white: #ffffff;
+            --gray-50: #fafafa;
+            --gray-100: #f5f5f5;
+            --gray-200: #eeeeee;
+            --gray-600: #757575;
+            --gray-800: #424242;
+            --gray-900: #212121;
+            --shadow: 0 2px 16px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+            --radius: 12px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--gray-900);
+            line-height: 1.6;
+            background: var(--white);
+        }
+
+        /* HEADER / NAV */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--gray-200);
+            transition: box-shadow 0.3s;
+        }
+
+        header.scrolled {
+            box-shadow: var(--shadow);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--green-dark);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--gray-800);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--green);
+        }
+
+        .nav-cta {
+            background: var(--green);
+            color: var(--white) !important;
+            padding: 10px 24px;
+            border-radius: 50px;
+            transition: background 0.2s !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--green-dark) !important;
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray-900);
+        }
+
+        /* HERO */
+        .hero {
+            padding: 140px 24px 80px;
+            background: linear-gradient(135deg, var(--green-pale) 0%, var(--white) 50%, var(--orange-light) 100%);
+            text-align: center;
+        }
+
+        .hero-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--green);
+            color: var(--white);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.15;
+            color: var(--gray-900);
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: var(--green);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--gray-600);
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--green);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background: var(--green-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: var(--white);
+            color: var(--gray-900);
+            border: 2px solid var(--gray-200);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--green);
+            color: var(--green);
+        }
+
+        /* STATS */
+        .stats {
+            padding: 60px 24px;
+            background: var(--green-dark);
+            color: var(--white);
+        }
+
+        .stats-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .stat-item p {
+            font-size: 0.95rem;
+            opacity: 0.85;
+        }
+
+        /* FEATURES */
+        .features {
+            padding: 80px 24px;
+            background: var(--white);
+        }
+
+        .features-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius);
+            padding: 32px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--gray-900);
+        }
+
+        .feature-card p {
+            color: var(--gray-600);
+            font-size: 0.95rem;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 80px 24px;
+            background: var(--green-pale);
+        }
+
+        .about-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: var(--gray-900);
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray-600);
+            max-width: 600px;
+            margin: 0 auto 48px;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: var(--gray-800);
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* PRODUCTS */
+        .products {
+            padding: 80px 24px;
+            background: var(--white);
+        }
+
+        .products-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .product-card {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius);
+            padding: 40px 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .product-emoji {
+            font-size: 3.5rem;
+            margin-bottom: 16px;
+        }
+
+        .product-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .product-card p {
+            font-size: 0.9rem;
+            color: var(--gray-600);
+        }
+
+        /* HOURS & CONTACT */
+        .contact {
+            padding: 80px 24px;
+            background: var(--gray-50);
+        }
+
+        .contact-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+            text-align: left;
+        }
+
+        .contact-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius);
+            padding: 32px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hours-table {
+            width: 100%;
+        }
+
+        .hours-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .hours-row:last-child {
+            border-bottom: none;
+        }
+
+        .hours-day {
+            font-weight: 500;
+        }
+
+        .hours-time {
+            color: var(--green);
+            font-weight: 600;
+        }
+
+        .hours-closed {
+            color: #d32f2f;
+            font-weight: 600;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 0;
+            font-size: 1rem;
+            color: var(--gray-800);
+        }
+
+        .contact-item a {
+            color: var(--green);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-icon {
+            font-size: 1.3rem;
+            width: 32px;
+            text-align: center;
+        }
+
+        /* SOCIAL */
+        .social-links {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--green-pale);
+            text-decoration: none;
+            font-size: 1.3rem;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .social-link:hover {
+            background: var(--green);
+            transform: scale(1.1);
+        }
+
+        /* PAYMENT */
+        .payment-icons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .payment-badge {
+            display: inline-block;
+            background: var(--gray-100);
+            border: 1px solid var(--gray-200);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--gray-800);
+        }
+
+        /* MAP */
+        .map-section {
+            width: 100%;
+            height: 400px;
+            filter: grayscale(20%);
+        }
+
+        .map-section iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--gray-900);
+            color: var(--gray-200);
+            padding: 48px 24px;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+
+        .footer-logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--white);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: var(--gray-200);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 16px;
+            list-style: none;
+        }
+
+        .footer-social a {
+            color: var(--gray-200);
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.2s;
+        }
+
+        .footer-social a:hover {
+            color: var(--white);
+        }
+
+        .footer-copy {
+            font-size: 0.85rem;
+            color: var(--gray-600);
+            width: 100%;
+            text-align: center;
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 24px;
+                gap: 16px;
+                border-bottom: 1px solid var(--gray-200);
+                box-shadow: var(--shadow-lg);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .hero {
+                padding: 120px 20px 60px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+
+            .stat-item h3 {
+                font-size: 2rem;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">
+                <span class="logo-icon">🥬</span>
+                Vårt Marked
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#om-oss">Om oss</a></li>
+                <li><a href="#produkter">Produkter</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="tel:+4792249005" class="nav-cta">92 24 90 05</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Meny">&#9776;</button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-inner">
+            <span class="hero-badge">Din lokale matbutikk siden 1999</span>
+            <h1>Ferske <span>grønnsaker</span> og internasjonal mat i Oslo</h1>
+            <p>Over 3000 varer fra Norge, Tyrkia, Thailand, Iran, Hellas og mange andre land. Alltid ferskt, alltid gode priser.</p>
+            <div class="hero-buttons">
+                <a href="#kontakt" class="btn btn-primary">Besøk oss</a>
+                <a href="tel:+4792249005" class="btn btn-secondary">92 24 90 05</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>25+</h3>
+                <p>år med erfaring</p>
+            </div>
+            <div class="stat-item">
+                <h3>3000+</h3>
+                <p>varer i butikken</p>
+            </div>
+            <div class="stat-item">
+                <h3>20+</h3>
+                <p>land representert</p>
+            </div>
+            <div class="stat-item">
+                <h3>6</h3>
+                <p>dager i uken</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🥦</div>
+                <h3>Alltid ferskt</h3>
+                <p>Vi får inn ferske grønnsaker og frukt hver dag for å sikre den beste kvaliteten til våre kunder.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Internasjonal mat</h3>
+                <p>Varer fra Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land — alt på ett sted.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Gode priser</h3>
+                <p>Kvalitetsprodukter til konkurransedyktige priser. Vi jobber hardt for å holde prisene lave.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3>Siden 1999</h3>
+                <p>Over 25 år med erfaring. Vi kjenner våre kunder og deres behov fra mange ulike kulturer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="om-oss">
+        <div class="about-inner">
+            <h2 class="section-title">Om Vårt Marked</h2>
+            <p class="about-text">
+                Vårt Marked ble grunnlagt i 1999 og har siden vært en pålitelig dagligvarebutikk på Fossumveien i Oslo. Med gjennomsnittlig over 3000 varer representerer vi mange forskjellige land og kulturer.
+                <br><br>
+                Hos oss finner du varer fra Norge, Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land. Det er viktig for oss at alle kundene våre finner det de trenger — uansett hvilken kultur de kommer fra.
+                <br><br>
+                Finner du ikke det du leter etter? Ta kontakt med oss, så sjekker vi om varen er mulig å få inn. Vi jobber hele tiden for å holde oppe kvaliteten på våre varer.
+                <br><br>
+                <strong>Vårt mål er å bli bedre og bedre for hver dag og å gi våre kunder den beste servicen vi kan tilby. Takk for at dere handler hos oss!</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products" id="produkter">
+        <div class="products-inner">
+            <h2 class="section-title">Våre produkter</h2>
+            <p class="section-subtitle">Over 3000 varer fra hele verden — alt du trenger under ett tak.</p>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-emoji">🥬</div>
+                    <h3>Ferske grønnsaker</h3>
+                    <p>Tomater, agurker, paprika, løk, brokkoli og mye mer — levert ferskt hver dag.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🍎</div>
+                    <h3>Frukt og bær</h3>
+                    <p>Sesongbasert frukt fra hele verden. Epler, bananer, appelsiner, druer og eksotiske frukter.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🥩</div>
+                    <h3>Kjøtt og kylling</h3>
+                    <p>Ferskt kjøtt, kylling og helal-produkter. Kvalitet du kan stole på.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🐟</div>
+                    <h3>Fisk og sjømat</h3>
+                    <p>Fersk og fryst fisk og sjømat. Bredt utvalg for alle smaker.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🧀</div>
+                    <h3>Meieriprodukter</h3>
+                    <p>Melk, ost, yoghurt og smør. Norske og internasjonale merker.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🍞</div>
+                    <h3>Bakevarer</h3>
+                    <p>Ferskt brød, pita, lavash og andre bakevarer fra ulike kulturer.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🫒</div>
+                    <h3>Internasjonale spesialiteter</h3>
+                    <p>Oliven, krydder, tahini, hummus, bulgur, ris og spesialiteter fra over 20 land.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-emoji">🥗</div>
+                    <h3>Ferdigmat og salater</h3>
+                    <p>Ferske salater fra salat-baren og ferdigmat for travle hverdager.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="kontakt">
+        <div class="contact-inner">
+            <h2 class="section-title">Besøk oss</h2>
+            <p class="section-subtitle">Vi ser frem til å ønske deg velkommen i butikken.</p>
+            <div class="contact-grid">
+                <!-- Hours -->
+                <div class="contact-card">
+                    <h3>Åpningstider</h3>
+                    <div class="hours-table">
+                        <div class="hours-row">
+                            <span class="hours-day">Mandag</span>
+                            <span class="hours-time">08:00 – 21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Tirsdag</span>
+                            <span class="hours-time">08:00 – 21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Onsdag</span>
+                            <span class="hours-time">08:00 – 21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Torsdag</span>
+                            <span class="hours-time">08:00 – 21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Fredag</span>
+                            <span class="hours-time">08:00 – 21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Lørdag</span>
+                            <span class="hours-time">08:00 – 21:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Søndag</span>
+                            <span class="hours-closed">Stengt</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-card">
+                    <h3>Kontaktinformasjon</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Fossumveien 60, 0988 Oslo</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <a href="tel:+4792249005">92 24 90 05</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:post@vartmarked.no">post@vartmarked.no</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌐</span>
+                        <a href="https://vartmarked.no">vartmarked.no</a>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/vaartmarked" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+                        <a href="https://www.instagram.com/vaartmarked/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">ig</a>
+                        <a href="https://www.tiktok.com/@vaartmarked" class="social-link" aria-label="TikTok" target="_blank" rel="noopener">tk</a>
+                    </div>
+
+                    <!-- Payment -->
+                    <div style="margin-top: 20px;">
+                        <p style="font-weight: 600; font-size: 0.9rem; margin-bottom: 8px; color: var(--gray-600);">Vi aksepterer:</p>
+                        <div class="payment-icons">
+                            <span class="payment-badge">Visa</span>
+                            <span class="payment-badge">Mastercard</span>
+                            <span class="payment-badge">Amex</span>
+                            <span class="payment-badge">Kontaktløs</span>
+                            <span class="payment-badge">Kontant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5!2d10.9224773!3d59.962428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46417aa38ec3b99f%3A0xdeda1579832c1ed3!2sV%C3%A5rt%20Marked!5e0!3m2!1sno!2sno!4v1"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Vårt Marked - Fossumveien 60, Oslo">
+        </iframe>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <span class="footer-logo">Vårt Marked</span>
+            <ul class="footer-links">
+                <li><a href="#om-oss">Om oss</a></li>
+                <li><a href="#produkter">Produkter</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <ul class="footer-social">
+                <li><a href="https://www.facebook.com/vaartmarked" target="_blank" rel="noopener" aria-label="Facebook">fb</a></li>
+                <li><a href="https://www.instagram.com/vaartmarked/" target="_blank" rel="noopener" aria-label="Instagram">ig</a></li>
+                <li><a href="https://www.tiktok.com/@vaartmarked" target="_blank" rel="noopener" aria-label="TikTok">tk</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 1999–2026 Vårt Marked. Alle rettigheter reservert. | Fossumveien 60, 0988 Oslo | Org.nr: 915 026 915</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileToggle.textContent = navLinks.classList.contains('active') ? '\u2715' : '\u2630';
+        });
+
+        // Close mobile menu on link click
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileToggle.textContent = '\u2630';
+            });
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 20);
+        });
+    </script>
+
+</body>
+</html>
