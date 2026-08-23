@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vårt Marked – Dagligvare, ferske grønnsaker og internasjonal mat i Oslo siden 1999</title>
-    <meta name="description" content="Vårt Marked på Fossumveien i Oslo. Over 3000 varer fra Norge, Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land. Ferske grønnsaker, frukt, kjøtt og spesialiteter siden 1999.">
+    <title>Vårt Marked – Dagligvare, ferske grønnsaker og internasjonal mat i Oslo</title>
+    <meta name="description" content="Vårt Marked på Fossumveien i Oslo. Over 3000 varer fra Norge, Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land. Ferske grønnsaker, frukt, kjøtt og spesialiteter siden 2016.">
     <meta name="keywords" content="dagligvare oslo, grønnsaker oslo, frukt oslo, matvarer oslo, matbutikk fossumveien, Vårt Marked, VartMarked, internasjonal mat oslo, tyrkisk mat oslo, asiatisk mat oslo, helal mat oslo, bakkal oslo">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Vårt Marked">
@@ -12,7 +12,7 @@
     <link rel="alternate" hreflang="no" href="https://vartmarked.no/">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Vårt Marked – Dagligvare og internasjonal mat i Oslo siden 1999">
+    <meta property="og:title" content="Vårt Marked – Dagligvare og internasjonal mat i Oslo siden 2016">
     <meta property="og:description" content="Over 3000 varer fra hele verden. Ferske grønnsaker, frukt, kjøtt og spesialiteter på Fossumveien i Oslo.">
     <meta property="og:url" content="https://vartmarked.no/">
     <meta property="og:type" content="website">
@@ -21,7 +21,7 @@
     <meta property="og:site_name" content="Vårt Marked">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥬</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%232d8a4e'/><g fill='none' stroke='%23ffffff' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'><path d='M13 18 L21 40 L29 18'/><path d='M33 40 V18 L41 30 L49 18 V40'/></g><rect x='21' y='46' width='22' height='4.5' rx='2.25' fill='%23ff6d00'/></svg>">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,16 +35,16 @@
         "@type": "GroceryStore",
         "name": "Vårt Marked",
         "alternateName": "VartMarked",
-        "description": "Dagligvarebutikk med over 3000 varer fra hele verden. Ferske grønnsaker, frukt, kjøtt og internasjonale spesialiteter siden 1999.",
+        "description": "Dagligvarebutikk med over 3000 varer fra hele verden. Ferske grønnsaker, frukt, kjøtt og internasjonale spesialiteter. På Fossumveien siden 2016, med over 25 års erfaring fra bransjen.",
         "url": "https://vartmarked.no",
         "telephone": "+47-92-24-90-05",
         "email": "post@vartmarked.no",
-        "foundingDate": "1999-12-02",
+        "foundingDate": "2016",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Fossumveien 60",
             "addressLocality": "Oslo",
-            "postalCode": "0988",
+            "postalCode": "0985",
             "addressCountry": "NO"
         },
         "geo": {
@@ -58,6 +58,12 @@
                 "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
                 "opens": "08:00",
                 "closes": "21:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Sunday"],
+                "opens": "10:00",
+                "closes": "19:00"
             }
         ],
         "priceRange": "$$",
@@ -72,7 +78,7 @@
                 {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Ferske grønnsaker og frukt"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Kjøtt og sjømat"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Internasjonale matvarer"}},
-                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Ferdigmat og salater"}}
+                {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Bakevarer og meieriprodukter"}}
             ]
         },
         "sameAs": [
@@ -157,8 +163,11 @@
             gap: 8px;
         }
 
-        .logo-icon {
-            font-size: 2rem;
+        .logo-mark {
+            width: 38px;
+            height: 38px;
+            flex-shrink: 0;
+            display: block;
         }
 
         .nav-links {
@@ -609,6 +618,15 @@
             font-size: 1.3rem;
             font-weight: 800;
             color: var(--white);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-logo svg {
+            width: 32px;
+            height: 32px;
+            flex-shrink: 0;
         }
 
         .footer-links {
@@ -718,7 +736,14 @@
     <header id="header">
         <nav>
             <a href="#" class="logo">
-                <span class="logo-icon">🥬</span>
+                <svg class="logo-mark" viewBox="0 0 64 64" role="img" aria-label="Vårt Marked">
+                    <rect width="64" height="64" rx="16" fill="#2d8a4e"/>
+                    <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M13 18 L21 40 L29 18"/>
+                        <path d="M33 40 V18 L41 30 L49 18 V40"/>
+                    </g>
+                    <rect x="21" y="46" width="22" height="4.5" rx="2.25" fill="#ff6d00"/>
+                </svg>
                 Vårt Marked
             </a>
             <ul class="nav-links" id="navLinks">
@@ -734,7 +759,7 @@
     <!-- HERO -->
     <section class="hero">
         <div class="hero-inner">
-            <span class="hero-badge">Din lokale matbutikk siden 1999</span>
+            <span class="hero-badge">Din lokale matbutikk siden 2016</span>
             <h1>Ferske <span>grønnsaker</span> og internasjonal mat i Oslo</h1>
             <p>Over 3000 varer fra Norge, Tyrkia, Thailand, Iran, Hellas og mange andre land. Alltid ferskt, alltid gode priser.</p>
             <div class="hero-buttons">
@@ -756,11 +781,7 @@
                 <p>varer i butikken</p>
             </div>
             <div class="stat-item">
-                <h3>20+</h3>
-                <p>land representert</p>
-            </div>
-            <div class="stat-item">
-                <h3>6</h3>
+                <h3>7</h3>
                 <p>dager i uken</p>
             </div>
         </div>
@@ -786,8 +807,8 @@
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🤝</div>
-                <h3>Siden 1999</h3>
-                <p>Over 25 år med erfaring. Vi kjenner våre kunder og deres behov fra mange ulike kulturer.</p>
+                <h3>Over 25 års erfaring</h3>
+                <p>Vårt Marked har vært på Fossumveien siden 2016, men erfaringen vår i bransjen strekker seg over 25 år tilbake. Vi kjenner våre kunder og deres behov fra mange ulike kulturer.</p>
             </div>
         </div>
     </section>
@@ -797,7 +818,7 @@
         <div class="about-inner">
             <h2 class="section-title">Om Vårt Marked</h2>
             <p class="about-text">
-                Vårt Marked ble grunnlagt i 1999 og har siden vært en pålitelig dagligvarebutikk på Fossumveien i Oslo. Med gjennomsnittlig over 3000 varer representerer vi mange forskjellige land og kulturer.
+                Vårt Marked åpnet dørene på Fossumveien i Oslo i 2016, og har siden vært en pålitelig dagligvarebutikk i nabolaget. Erfaringen vår strekker seg likevel over 25 år tilbake — fra tidligere drift i en annen by, under et annet navn. Med gjennomsnittlig over 3000 varer representerer vi mange forskjellige land og kulturer.
                 <br><br>
                 Hos oss finner du varer fra Norge, Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land. Det er viktig for oss at alle kundene våre finner det de trenger — uansett hvilken kultur de kommer fra.
                 <br><br>
@@ -847,12 +868,7 @@
                 <div class="product-card">
                     <div class="product-emoji">🫒</div>
                     <h3>Internasjonale spesialiteter</h3>
-                    <p>Oliven, krydder, tahini, hummus, bulgur, ris og spesialiteter fra over 20 land.</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-emoji">🥗</div>
-                    <h3>Ferdigmat og salater</h3>
-                    <p>Ferske salater fra salat-baren og ferdigmat for travle hverdager.</p>
+                    <p>Oliven, krydder, tahini, hummus, bulgur, ris og spesialiteter fra mange forskjellige land.</p>
                 </div>
             </div>
         </div>
@@ -894,7 +910,7 @@
                         </div>
                         <div class="hours-row">
                             <span class="hours-day">Søndag</span>
-                            <span class="hours-closed">Stengt</span>
+                            <span class="hours-time">10:00 – 19:00</span>
                         </div>
                     </div>
                 </div>
@@ -904,7 +920,7 @@
                     <h3>Kontaktinformasjon</h3>
                     <div class="contact-item">
                         <span class="contact-icon">📍</span>
-                        <span>Fossumveien 60, 0988 Oslo</span>
+                        <span>Fossumveien 60, 0985 Oslo</span>
                     </div>
                     <div class="contact-item">
                         <span class="contact-icon">📞</span>
@@ -956,7 +972,17 @@
     <!-- FOOTER -->
     <footer>
         <div class="footer-inner">
-            <span class="footer-logo">Vårt Marked</span>
+            <span class="footer-logo">
+                <svg viewBox="0 0 64 64" role="img" aria-label="Vårt Marked">
+                    <rect width="64" height="64" rx="16" fill="#2d8a4e"/>
+                    <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M13 18 L21 40 L29 18"/>
+                        <path d="M33 40 V18 L41 30 L49 18 V40"/>
+                    </g>
+                    <rect x="21" y="46" width="22" height="4.5" rx="2.25" fill="#ff6d00"/>
+                </svg>
+                Vårt Marked
+            </span>
             <ul class="footer-links">
                 <li><a href="#om-oss">Om oss</a></li>
                 <li><a href="#produkter">Produkter</a></li>
@@ -967,7 +993,7 @@
                 <li><a href="https://www.instagram.com/vaartmarked/" target="_blank" rel="noopener" aria-label="Instagram">ig</a></li>
                 <li><a href="https://www.tiktok.com/@vaartmarked" target="_blank" rel="noopener" aria-label="TikTok">tk</a></li>
             </ul>
-            <p class="footer-copy">&copy; 1999–2026 Vårt Marked. Alle rettigheter reservert. | Fossumveien 60, 0988 Oslo | Org.nr: 915 026 915</p>
+            <p class="footer-copy">&copy; 2016–2026 Vårt Marked. Alle rettigheter reservert. | Fossumveien 60, 0985 Oslo | Org.nr: 915 026 915</p>
         </div>
     </footer>
 
