@@ -23,6 +23,25 @@ Sağ alttaki sohbet balonu (`ChatWidget.tsx`) gerçek bir WhatsApp botu değildi
 yanıtlayıp çözemediğini WhatsApp'a devreder. Gerçek Cloud API botu ayrı bir telefon numarası ve
 Meta işletme doğrulaması ister; webhook'u PHP olarak bu hostingde koşabilir (PHP 8.2 + curl test edildi).
 
+## Rider'dan açma (Windows + WSL)
+
+Proje WSL içinde (`/home/aynura/vartmarked`), Rider Windows'ta. **Tek çalışma kopyası kullanılır** —
+projeyi Windows diskine kopyalama, iki kopya birbirinden ayrışır.
+
+Rider'da `File > Open` → şu yolu yapıştır:
+
+```
+\\wsl.localhost\Ubuntu\home\aynura\vartmarked\VartMarked.sln
+```
+
+`.run/` altındaki üç yapılandırma hazır gelir: **Web (önizleme :5180)**, **Prerender (tam çıktı)**,
+**Frontend (vite dev :5173)**.
+
+**Tuzak:** Windows'ta SDK 9, WSL'de SDK 8 kurulu — ikisi de `net8.0` derler ama `bin/`+`obj/`
+klasörlerini paylaşırlar ve içlerinde mutlak yollar durur (`/home/aynura/...` ile
+`\\wsl.localhost\...`). Rider'da derledikten sonra WSL'de `dotnet build` tuhaf davranırsa
+`rm -rf backend/*/bin backend/*/obj` yeterli.
+
 ## Komutlar
 
 ```bash
