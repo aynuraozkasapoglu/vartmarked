@@ -19,6 +19,9 @@ koşamaz. Bu yüzden mimari şöyledir:
 Çıktı `frontend/dist`, Domeneshop'ta `/www` klasörüne olduğu gibi yüklenir.
 
 Sunucu olmadığı için **iletişim formu yoktur**: iletişim WhatsApp + `tel:` + `mailto:` üzerinden yürür.
+Sağ alttaki sohbet balonu (`ChatWidget.tsx`) gerçek bir WhatsApp botu değildir — SSS'i anında
+yanıtlayıp çözemediğini WhatsApp'a devreder. Gerçek Cloud API botu ayrı bir telefon numarası ve
+Meta işletme doğrulaması ister; webhook'u PHP olarak bu hostingde koşabilir (PHP 8.2 + curl test edildi).
 
 ## Komutlar
 
@@ -67,6 +70,11 @@ JS çalıştırmadan doğru dili görür.
   otomatik galeriye girer. Klasör boşsa galeri bölümü ve nav bağlantısı hiç çizilmez.
 - Head etiketleri **yalnız C# tarafında** üretilir. `Seo.tsx` sadece `document.title` günceller;
   oraya meta etiketi eklemek mantığı iki dilde kopyalamak olur.
+- **Açık/kapalı durumu yalnız istemcide hesaplanır** (`useOpenState.ts`, `Europe/Oslo`). Prerender
+  çıktısına yazılsaydı site sonsuza kadar build anındaki durumu gösterirdi; bu yüzden ilk render'da
+  `null` döner. Aynı kural çerez banner'ı için de geçerli.
+- **`site.css`'te `.footer-links` flex ama `flex-wrap` yok** — footer'a bağlantı eklerken mobilde
+  yatay taşma yapar. Düzeltmesi `ek.css`'te duruyor; yeni bağlantı eklersen mobilde ölç.
 - Kök dizindeki `index.html` **eski elle yazılmış sitedir** (2026-08-26'ya kadar canlıdaydı, GitHub Pages
   hâlâ onu servis eder). Tasarım referansı olarak duruyor, build'e girmez.
 

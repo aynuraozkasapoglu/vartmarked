@@ -157,5 +157,15 @@
       "q": "Kan jeg be dere skaffe en vare dere ikke har?",
       "a": "Ja. Ta kontakt på WhatsApp eller telefon 92 24 90 05, så sjekker vi om varen er mulig å få inn."
     }
+  },
+  "chat": {
+    "open": "Åpne chat",
+    "close": "Lukk",
+    "greeting": "Hei! Hva lurer du på?",
+    "pick": "Velg et spørsmål — eller skriv til oss på WhatsApp.",
+    "more": "Andre spørsmål",
+    "whatsapp": "Skriv på WhatsApp",
+    "openNow": "Åpent nå — stenger {{time}}",
+    "closedNow": "Stengt nå — åpner {{day}} {{time}}"
   }
 }

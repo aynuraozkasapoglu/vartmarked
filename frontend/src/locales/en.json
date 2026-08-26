@@ -157,5 +157,15 @@
       "q": "Can you order an item you do not stock?",
       "a": "Yes. Contact us on WhatsApp or call 92 24 90 05 and we will check whether we can bring the item in."
     }
+  },
+  "chat": {
+    "open": "Open chat",
+    "close": "Close",
+    "greeting": "Hi! What would you like to know?",
+    "pick": "Pick a question — or message us on WhatsApp.",
+    "more": "Other questions",
+    "whatsapp": "Message on WhatsApp",
+    "openNow": "Open now — closes {{time}}",
+    "closedNow": "Closed now — opens {{day}} {{time}}"
   }
 }

@@ -16,7 +16,7 @@ import Contact from './components/Contact'
 import MapSection from './components/MapSection'
 import Footer from './components/Footer'
 import CookieConsent from './components/CookieConsent'
-import WhatsAppButton from './components/WhatsAppButton'
+import ChatWidget from './components/ChatWidget'
 
 /**
  * Dil yoldan cozulur: / -> nb, /en/ -> en ...
@@ -55,7 +55,7 @@ export default function App({ locale }: { locale?: Locale }) {
         <MapSection />
       </main>
       <Footer galeriVar={galeriVar} />
-      <WhatsAppButton />
+      <ChatWidget />
       <CookieConsent />
     </ConsentProvider>
   )

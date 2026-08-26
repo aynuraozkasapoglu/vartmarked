@@ -157,5 +157,15 @@
       "q": "Tôi có thể đặt món cửa hàng không có sẵn không?",
       "a": "Được. Hãy nhắn WhatsApp hoặc gọi 92 24 90 05, chúng tôi sẽ kiểm tra xem có thể nhập về hay không."
     }
+  },
+  "chat": {
+    "open": "Mở trò chuyện",
+    "close": "Đóng",
+    "greeting": "Chào bạn! Bạn muốn biết điều gì?",
+    "pick": "Chọn một câu hỏi — hoặc nhắn cho chúng tôi trên WhatsApp.",
+    "more": "Câu hỏi khác",
+    "whatsapp": "Nhắn trên WhatsApp",
+    "openNow": "Đang mở — đóng lúc {{time}}",
+    "closedNow": "Đang đóng — mở {{day}} lúc {{time}}"
   }
 }

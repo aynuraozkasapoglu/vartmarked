@@ -157,5 +157,15 @@
       "q": "¿Pueden traer un producto que no tienen?",
       "a": "Sí. Escríbenos por WhatsApp o llama al 92 24 90 05 y comprobaremos si podemos traerlo."
     }
+  },
+  "chat": {
+    "open": "Abrir chat",
+    "close": "Cerrar",
+    "greeting": "¡Hola! ¿Qué quieres saber?",
+    "pick": "Elige una pregunta o escríbenos por WhatsApp.",
+    "more": "Otras preguntas",
+    "whatsapp": "Escribir por WhatsApp",
+    "openNow": "Abierto ahora — cierra a las {{time}}",
+    "closedNow": "Cerrado ahora — abre {{day}} a las {{time}}"
   }
 }
