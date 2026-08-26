@@ -28,5 +28,8 @@ public static class Locales
         new("th",  "th",    "ltr", "ไทย"),
         new("vi",  "vi",    "ltr", "Tiếng Việt"),
         new("prs", "fa-AF", "rtl", "دری"),
+        new("tr",  "tr",    "ltr", "Türkçe"),
+        new("ku",  "ku",    "ltr", "Kurmancî"),
+        new("ckb", "ckb",   "rtl", "سۆرانی"),
     ];
 }

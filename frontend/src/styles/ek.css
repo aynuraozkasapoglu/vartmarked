@@ -21,6 +21,8 @@
     background: var(--surface); border: 1px solid var(--border);
     border-radius: var(--radius); box-shadow: var(--shadow-lg);
     list-style: none; padding: 6px; margin: 0; min-width: 160px; z-index: 1200;
+    /* 12 dil var: kisa ekranlarda liste ekranin altindan tasmasin diye kaydirilir */
+    max-height: min(70vh, 420px); overflow-y: auto; overscroll-behavior: contain;
 }
 .lang-menu a {
     display: block; padding: 8px 12px; border-radius: 8px;

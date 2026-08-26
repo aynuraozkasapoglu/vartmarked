@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Vårt Marked – Oslo Stovner'de market | Uluslararası gıda",
+    "description": "Oslo'da Stovner senter'in hemen yanında market. 3000'den fazla ürün: taze sebze, meyve, helal et ve Türk, Tayland, İran ve Arap ürünleri. Her gün açık.",
+    "langName": "Türkçe"
+  },
+  "nav": {
+    "home": "Vårt Marked – ana sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "gallery": "Fotoğraflar",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "language": "Dil",
+    "faq": "Sıkça sorulan sorular"
+  },
+  "hero": {
+    "badge": "2016'dan beri Stovner'deki mahalle marketiniz",
+    "title": "Oslo'da taze <1>sebze</1> ve uluslararası gıda",
+    "lead": "Norveç, Türkiye, Tayland, İran, Yunanistan ve daha birçok ülkeden 3000'den fazla ürün. Her zaman taze, her zaman uygun fiyat.",
+    "ctaVisit": "Bizi ziyaret edin",
+    "ctaCall": "Bizi arayın"
+  },
+  "stats": {
+    "yearsLabel": "yıllık deneyim",
+    "itemsLabel": "ürün mağazada",
+    "daysLabel": "gün açık"
+  },
+  "features": {
+    "fresh": {
+      "title": "Her zaman taze",
+      "body": "Müşterilerimize en iyi kaliteyi sunabilmek için her gün taze sebze ve meyve getiriyoruz."
+    },
+    "international": {
+      "title": "Uluslararası gıda",
+      "body": "Türkiye, Tayland, İran, Rusya, Yunanistan ve daha birçok ülkeden ürünler — hepsi tek çatı altında."
+    },
+    "prices": {
+      "title": "Uygun fiyatlar",
+      "body": "Kaliteli ürünler, rekabetçi fiyatlarla. Fiyatlarımızı düşük tutmak için çok çalışıyoruz."
+    },
+    "experience": {
+      "title": "25 yılı aşkın deneyim",
+      "body": "Vårt Marked 2016'dan beri Fossumveien'de, ama bu işteki deneyimimiz 25 yılı aşıyor. Müşterilerimizi ve birçok farklı kültürden gelen ihtiyaçlarını tanıyoruz."
+    }
+  },
+  "about": {
+    "title": "Vårt Marked hakkında",
+    "p1": "Vårt Marked 2016 yılında Oslo'da Fossumveien'de kapılarını açtı ve o günden beri mahallenin güvenilir marketi oldu. Deneyimimiz ise 25 yılı aşıyor — daha önce başka bir şehirde, başka bir adla. Ortalama 3000'den fazla ürünle birçok farklı ülkeyi ve kültürü temsil ediyoruz.",
+    "p2": "Bizde Norveç, Türkiye, Tayland, İran, Rusya, Yunanistan ve daha birçok ülkeden ürün bulursunuz. Her müşterimizin — hangi kültürden gelirse gelsin — aradığını bulması bizim için önemli.",
+    "p3": "Aradığınızı bulamadınız mı? Bize ulaşın, ürünü getirtebilir miyiz diye bakalım. Ürünlerimizin kalitesini korumak için sürekli çalışıyoruz.",
+    "p4": "Amacımız her geçen gün daha iyi olmak ve müşterilerimize verebileceğimiz en iyi hizmeti vermek. Bizden alışveriş ettiğiniz için teşekkür ederiz!",
+    "local": "Mağaza Stovner'de Fossumveien'de, Stovner senter'in hemen yanında yer alıyor ve Groruddalen'in tamamına — Stovner, Fossum, Vestli, Rommen, Romsås ve Haugenstua'ya — hizmet veriyor. Stovner metro istasyonuna kısa bir yürüyüş mesafesinde, kapının önünde park yeri var."
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Dünyanın dört bir yanından 3000'den fazla ürün — ihtiyacınız olan her şey tek çatı altında.",
+    "vegetables": {
+      "title": "Taze sebzeler",
+      "body": "Domates, salatalık, biber, soğan, brokoli ve çok daha fazlası — her gün taze geliyor."
+    },
+    "fruit": {
+      "title": "Meyve ve orman meyveleri",
+      "body": "Dünyanın her yerinden mevsim meyveleri. Elma, muz, portakal, üzüm ve egzotik meyveler."
+    },
+    "meat": {
+      "title": "Et ve tavuk",
+      "body": "Taze et, tavuk ve helal ürünler. Güvenebileceğiniz kalite."
+    },
+    "fish": {
+      "title": "Balık ve deniz ürünleri",
+      "body": "Taze ve dondurulmuş balık ile deniz ürünleri. Her damak zevkine geniş seçenek."
+    },
+    "dairy": {
+      "title": "Süt ürünleri",
+      "body": "Süt, peynir, yoğurt ve tereyağı. Norveç ve uluslararası markalar."
+    },
+    "bakery": {
+      "title": "Fırın ürünleri",
+      "body": "Taze ekmek, pide, lavaş ve farklı kültürlerden diğer fırın ürünleri."
+    },
+    "specialties": {
+      "title": "Uluslararası özel ürünler",
+      "body": "Zeytin, baharat, tahin, humus, bulgur, pirinç ve birçok farklı ülkeden özel ürünler."
+    }
+  },
+  "gallery": {
+    "title": "Mağazadan fotoğraflar",
+    "subtitle": "Bizi ziyaret etmeden önce Vårt Marked'in içine bir göz atın.",
+    "open": "Fotoğrafı aç",
+    "close": "Kapat",
+    "prev": "Önceki fotoğraf",
+    "next": "Sonraki fotoğraf"
+  },
+  "contact": {
+    "title": "Bizi ziyaret edin",
+    "subtitle": "Sizi mağazamızda ağırlamayı dört gözle bekliyoruz.",
+    "hoursTitle": "Açılış saatleri",
+    "infoTitle": "İletişim bilgileri",
+    "acceptTitle": "Kabul ettiğimiz ödeme yöntemleri:",
+    "mapTitle": "Vårt Marked – Fossumveien 60, Oslo",
+    "days": {
+      "mon": "Pazartesi",
+      "tue": "Salı",
+      "wed": "Çarşamba",
+      "thu": "Perşembe",
+      "fri": "Cuma",
+      "sat": "Cumartesi",
+      "sun": "Pazar"
+    },
+    "payment": {
+      "contactless": "Temassız",
+      "cash": "Nakit"
+    }
+  },
+  "footer": {
+    "copy": "© 2016–2026 Vårt Marked. Tüm hakları saklıdır.",
+    "orgNr": "Kuruluş no"
+  },
+  "cookie": {
+    "title": "Çerez kullanıyoruz",
+    "body": "Sitenin çalışması için gerekli çerezleri kullanıyoruz. Google haritası yalnızca siz kabul ederseniz yüklenir.",
+    "accept": "Tümünü kabul et",
+    "reject": "Yalnızca gerekli olanlar",
+    "more": "Daha fazla bilgi",
+    "mapBlocked": "Çerezleri kabul etmediğiniz için Google Haritalar engellendi.",
+    "mapEnable": "Haritayı göster",
+    "openSettings": "Çerez ayarları"
+  },
+  "whatsapp": {
+    "label": "WhatsApp'tan bize yazın",
+    "message": "Merhaba! Vårt Marked hakkında bir sorum var."
+  },
+  "theme": {
+    "toLight": "Açık temaya geç",
+    "toDark": "Koyu temaya geç"
+  },
+  "faq": {
+    "title": "Sıkça sorulan sorular",
+    "hvor": {
+      "q": "Vårt Marked nerede?",
+      "a": "Vårt Marked Fossumveien 60, 0988 Oslo adresinde — Stovner senter'in hemen yanında, Stovner metro istasyonuna birkaç dakika yürüme mesafesinde. Mağazanın hemen önünde park yeri var."
+    },
+    "apent": {
+      "q": "Vårt Marked'in açılış saatleri nedir?",
+      "a": "Her gün açığız: Pazartesi–Cumartesi 08:00–21:00 ve Pazar 10:00–19:00."
+    },
+    "halal": {
+      "q": "Helal etiniz var mı?",
+      "a": "Evet. Taze helal et ve tavuğun yanı sıra balık ve deniz ürünleri de bulunuyor."
+    },
+    "land": {
+      "q": "Ürünler hangi ülkelerden geliyor?",
+      "a": "Norveç, Türkiye, Tayland, İran, Rusya, Yunanistan, Pakistan, Hindistan ve daha birçok ülkeden 3000'den fazla ürünümüz var — sebze, baharat, pirinç, fırın ürünleri ve özel ürünler."
+    },
+    "bestille": {
+      "q": "Mağazada olmayan bir ürünü getirtebilir misiniz?",
+      "a": "Evet. WhatsApp'tan yazın ya da 92 24 90 05 numaralı telefondan arayın, ürünü getirtebilir miyiz diye bakalım."
+    }
+  },
+  "chat": {
+    "open": "Sohbeti aç",
+    "close": "Kapat",
+    "greeting": "Merhaba! Ne sormak istersiniz?",
+    "pick": "Bir soru seçin — ya da WhatsApp'tan bize yazın.",
+    "more": "Diğer sorular",
+    "whatsapp": "WhatsApp'tan yaz",
+    "openNow": "Şu anda açık — {{time}} kapanıyor",
+    "closedNow": "Şu anda kapalı — {{day}} {{time}} açılıyor"
+  }
+}

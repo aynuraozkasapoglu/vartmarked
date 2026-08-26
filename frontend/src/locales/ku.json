@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Vårt Marked – firoşgeha xwarinê li Stovner, Oslo | Xwarina navneteweyî",
+    "description": "Firoşgeha xwarinê li tenişta Stovner senter li Oslo. Zêdetirî 3000 kel û pel: sebzeyên taze, fêkî, goştê helal û berhemên tirkî, taylandî, îranî û erebî. Her roj vekirî ye.",
+    "langName": "Kurmancî"
+  },
+  "nav": {
+    "home": "Vårt Marked – rûpela sereke",
+    "about": "Der barê me de",
+    "products": "Berhem",
+    "gallery": "Wêne",
+    "contact": "Têkilî",
+    "menu": "Menû",
+    "language": "Ziman",
+    "faq": "Pirsên ku pir tên kirin"
+  },
+  "hero": {
+    "badge": "Ji 2016an ve firoşgeha we ya taxê li Stovner",
+    "title": "<1>Sebzeyên</1> taze û xwarina navneteweyî li Oslo",
+    "lead": "Zêdetirî 3000 kel û pel ji Norwêc, Tirkiye, Tayland, Îran, Yewnanistan û gelek welatên din. Herdem taze, herdem bihayên baş.",
+    "ctaVisit": "Serdana me bikin",
+    "ctaCall": "Telefonî me bikin"
+  },
+  "stats": {
+    "yearsLabel": "sal ezmûn",
+    "itemsLabel": "kel û pel di firoşgehê de",
+    "daysLabel": "roj di hefteyê de"
+  },
+  "features": {
+    "fresh": {
+      "title": "Herdem taze",
+      "body": "Em her roj sebze û fêkiyên taze tînin da ku kalîteya herî baş ji xerîdarên xwe re misoger bikin."
+    },
+    "international": {
+      "title": "Xwarina navneteweyî",
+      "body": "Berhem ji Tirkiye, Tayland, Îran, Rûsya, Yewnanistan û gelek welatên din — hemû li cihekî."
+    },
+    "prices": {
+      "title": "Bihayên baş",
+      "body": "Berhemên kalîteyê bi bihayên hevrikî. Em pir dixebitin ku bihayên xwe nizm bihêlin."
+    },
+    "experience": {
+      "title": "Zêdetirî 25 sal ezmûn",
+      "body": "Vårt Marked ji 2016an ve li Fossumveien e, lê ezmûna me di vî karî de ji 25 salan zêdetir e. Em xerîdarên xwe û pêdiviyên wan ên ji gelek çandên cuda nas dikin."
+    }
+  },
+  "about": {
+    "title": "Der barê Vårt Marked de",
+    "p1": "Vårt Marked di sala 2016an de li Fossumveien a Osloyê deriyên xwe vekir û ji hingê ve firoşgeheke taxê ya pêbawer e. Lê ezmûna me ji 25 salan zêdetir vedigere — ji salên berê li bajarekî din, bi navekî din. Bi navînî zêdetirî 3000 kel û pelan, em gelek welat û çandên cuda temsîl dikin.",
+    "p2": "Li cem me hûn berhemên ji Norwêc, Tirkiye, Tayland, Îran, Rûsya, Yewnanistan û gelek welatên din dibînin. Ji bo me girîng e ku her xerîdarê me tiştê ku jê re lazim e bibîne — ji kîjan çandê tê ferq nake.",
+    "p3": "Tiştê ku hûn lê digerin nabînin? Bi me re têkilî daynin, em ê binêrin ka em dikarin wê kelê bînin an na. Em bêrawestan dixebitin ku kalîteya berhemên xwe biparêzin.",
+    "p4": "Armanca me ew e ku her roj çêtir bibin û xizmeta herî baş a ku em dikarin pêşkêş bikin bidin xerîdarên xwe. Spas ji bo ku hûn ji cem me kirînê dikin!",
+    "local": "Firoşgeh li Fossumveien a Stovnerê ye, li tenişta Stovner senter, û xizmetê dide tevahiya Groruddalenê — Stovner, Fossum, Vestli, Rommen, Romsås û Haugenstua. Bi meşeke kurt ji stasyona metroyê ya Stovnerê, bi parkkirin li ber derî."
+  },
+  "products": {
+    "title": "Berhemên me",
+    "subtitle": "Zêdetirî 3000 kel û pel ji seranserê cîhanê — her tiştê ku hûn hewceyî wê ne di bin banekî de.",
+    "vegetables": {
+      "title": "Sebzeyên taze",
+      "body": "Bacansor, xiyar, îsot, pîvaz, brokolî û gelek tiştên din — her roj taze tên."
+    },
+    "fruit": {
+      "title": "Fêkî û tû",
+      "body": "Fêkiyên demsalî ji seranserê cîhanê. Sêv, mûz, pirteqal, tirî û fêkiyên biyanî."
+    },
+    "meat": {
+      "title": "Goşt û mirîşk",
+      "body": "Goştê taze, mirîşk û berhemên helal. Kalîteya ku hûn dikarin pê bawer bin."
+    },
+    "fish": {
+      "title": "Masî û berhemên deryayê",
+      "body": "Masî û berhemên deryayê yên taze û qeşagirtî. Hilbijartineke fireh ji bo her tamê."
+    },
+    "dairy": {
+      "title": "Berhemên şîr",
+      "body": "Şîr, penîr, mast û rûn. Markayên norwêcî û navneteweyî."
+    },
+    "bakery": {
+      "title": "Berhemên firinê",
+      "body": "Nanê taze, pîta, lawaş û berhemên din ên firinê ji çandên cuda."
+    },
+    "specialties": {
+      "title": "Taybetmendiyên navneteweyî",
+      "body": "Zeytûn, baharat, tehîn, humus, bulgur, birinc û berhemên taybet ji gelek welatên cuda."
+    }
+  },
+  "gallery": {
+    "title": "Wêneyên ji firoşgehê",
+    "subtitle": "Berî ku hûn serdana me bikin, li hundirê Vårt Marked binêrin.",
+    "open": "Wêneyê veke",
+    "close": "Bigire",
+    "prev": "Wêneyê berê",
+    "next": "Wêneyê pêş"
+  },
+  "contact": {
+    "title": "Serdana me bikin",
+    "subtitle": "Em bi hêvî ne ku li firoşgehê bi xêrhatina we bikin.",
+    "hoursTitle": "Demên vekirinê",
+    "infoTitle": "Agahiyên têkiliyê",
+    "acceptTitle": "Em qebûl dikin:",
+    "mapTitle": "Vårt Marked – Fossumveien 60, Oslo",
+    "days": {
+      "mon": "Duşem",
+      "tue": "Sêşem",
+      "wed": "Çarşem",
+      "thu": "Pêncşem",
+      "fri": "În",
+      "sat": "Şemî",
+      "sun": "Yekşem"
+    },
+    "payment": {
+      "contactless": "Bêtêkilî",
+      "cash": "Nexd"
+    }
+  },
+  "footer": {
+    "copy": "© 2016–2026 Vårt Marked. Hemû maf parastî ne.",
+    "orgNr": "Hejmara saziyê"
+  },
+  "cookie": {
+    "title": "Em çerezan bikar tînin",
+    "body": "Em çerezên pêwîst bikar tînin da ku malper bixebite. Nexşeya Google tenê heke hûn qebûl bikin tê barkirin.",
+    "accept": "Hemûyan qebûl bike",
+    "reject": "Tenê yên pêwîst",
+    "more": "Bêtir bixwîne",
+    "mapBlocked": "Google Maps hatiye astengkirin ji ber ku we çerez qebûl nekirine.",
+    "mapEnable": "Nexşeyê nîşan bide",
+    "openSettings": "Sazkariyên çerezan"
+  },
+  "whatsapp": {
+    "label": "Li ser WhatsAppê ji me re binivîsin",
+    "message": "Silav! Pirseke min der barê Vårt Marked de heye."
+  },
+  "theme": {
+    "toLight": "Derbasî dirûvê ronî bibe",
+    "toDark": "Derbasî dirûvê tarî bibe"
+  },
+  "faq": {
+    "title": "Pirsên ku pir tên kirin",
+    "hvor": {
+      "q": "Vårt Marked li ku ye?",
+      "a": "Vårt Marked li Fossumveien 60, 0988 Oslo ye — li tenişta Stovner senter, çend deqe bi peyatî ji stasyona metroyê ya Stovnerê. Li ber firoşgehê parkkirin heye."
+    },
+    "apent": {
+      "q": "Demên vekirinê yên Vårt Marked çi ne?",
+      "a": "Em her roj vekirî ne: Duşem heta Şemî 08:00–21:00 û Yekşem 10:00–19:00."
+    },
+    "halal": {
+      "q": "Goştê helal we heye?",
+      "a": "Erê. Goşt û mirîşka helal a taze me heye, her wiha masî û berhemên deryayê jî."
+    },
+    "land": {
+      "q": "Berhem ji kîjan welatan tên?",
+      "a": "Zêdetirî 3000 kel û pelên me hene ji Norwêc, Tirkiye, Tayland, Îran, Rûsya, Yewnanistan, Pakistan, Hindistan û gelek welatên din — sebze, baharat, birinc, berhemên firinê û taybetmendî."
+    },
+    "bestille": {
+      "q": "Hûn dikarin kelekê ku li cem we tune ye bînin?",
+      "a": "Erê. Bi WhatsAppê an bi telefona 92 24 90 05 bi me re têkilî daynin, em ê binêrin ka em dikarin wê bînin an na."
+    }
+  },
+  "chat": {
+    "open": "Chatê veke",
+    "close": "Bigire",
+    "greeting": "Silav! Hûn çi dixwazin bizanin?",
+    "pick": "Pirsekê hilbijêre — an li ser WhatsAppê ji me re binivîse.",
+    "more": "Pirsên din",
+    "whatsapp": "Li ser WhatsAppê binivîse",
+    "openNow": "Niha vekirî — saet {{time}} digire",
+    "closedNow": "Niha girtî — {{day}} saet {{time}} vedibe"
+  }
+}

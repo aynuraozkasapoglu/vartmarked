@@ -10,8 +10,11 @@ import es from './locales/es.json'
 import th from './locales/th.json'
 import vi from './locales/vi.json'
 import prs from './locales/prs.json'
+import tr from './locales/tr.json'
+import ku from './locales/ku.json'
+import ckb from './locales/ckb.json'
 
-export type Locale = 'nb' | 'en' | 'ur' | 'hi' | 'ar' | 'es' | 'th' | 'vi' | 'prs'
+export type Locale = 'nb' | 'en' | 'ur' | 'hi' | 'ar' | 'es' | 'th' | 'vi' | 'prs' | 'tr' | 'ku' | 'ckb'
 
 /** Varsayilan dil UC yerde durur: burasi, CorporateRoutes benzeri LOCALES tablosu ve Prerender/Locales.cs. */
 export const DEFAULT_LOCALE: Locale = 'nb'
@@ -27,6 +30,9 @@ export const LOCALES: { code: Locale; label: string; hreflang: string; dir: 'ltr
   { code: 'th',  label: 'ไทย',        hreflang: 'th',    dir: 'ltr' },
   { code: 'vi',  label: 'Tiếng Việt', hreflang: 'vi',   dir: 'ltr' },
   { code: 'prs', label: 'دری',        hreflang: 'fa-AF', dir: 'rtl' },
+  { code: 'tr',  label: 'Türkçe',     hreflang: 'tr',    dir: 'ltr' },
+  { code: 'ku',  label: 'Kurmancî',   hreflang: 'ku',    dir: 'ltr' },
+  { code: 'ckb', label: 'سۆرانی',      hreflang: 'ckb',   dir: 'rtl' },
 ]
 
 export const isLocale = (v: string | undefined): v is Locale =>
@@ -52,6 +58,9 @@ void i18n.use(initReactI18next).init({
     th: { translation: th },
     vi: { translation: vi },
     prs: { translation: prs },
+    tr: { translation: tr },
+    ku: { translation: ku },
+    ckb: { translation: ckb },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,
