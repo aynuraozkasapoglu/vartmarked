@@ -1,43 +1,97 @@
 {
   "meta": {
-    "title": "Vårt Marked – Groceries, fresh vegetables and international food in Oslo",
-    "description": "Over 3000 items from around the world. Fresh vegetables, fruit, meat and specialities on Fossumveien in Oslo. Open 7 days a week.",
+    "title": "Vårt Marked – grocery store at Stovner, Oslo | International food",
+    "description": "Grocery store right next to Stovner senter in Oslo. Over 3000 items: fresh vegetables, fruit, halal meat and Turkish, Thai, Iranian and Arabic products. Open every day.",
     "langName": "English"
   },
-  "nav": { "home": "Vårt Marked – home", "about": "About us", "products": "Products", "gallery": "Photos", "contact": "Contact", "menu": "Menu", "language": "Language" },
+  "nav": {
+    "home": "Vårt Marked – home",
+    "about": "About us",
+    "products": "Products",
+    "gallery": "Photos",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Language",
+    "faq": "Frequently asked questions"
+  },
   "hero": {
-    "badge": "Your local grocery store since 2016",
+    "badge": "Your local grocery store at Stovner since 2016",
     "title": "Fresh <1>vegetables</1> and international food in Oslo",
     "lead": "Over 3000 items from Norway, Turkey, Thailand, Iran, Greece and many other countries. Always fresh, always good prices.",
     "ctaVisit": "Visit us",
     "ctaCall": "Call us"
   },
-  "stats": { "yearsLabel": "years of experience", "itemsLabel": "items in store", "daysLabel": "days a week" },
+  "stats": {
+    "yearsLabel": "years of experience",
+    "itemsLabel": "items in store",
+    "daysLabel": "days a week"
+  },
   "features": {
-    "fresh": { "title": "Always fresh", "body": "We receive fresh vegetables and fruit every day to guarantee the best quality for our customers." },
-    "international": { "title": "International food", "body": "Products from Turkey, Thailand, Iran, Russia, Greece and many other countries — all in one place." },
-    "prices": { "title": "Good prices", "body": "Quality products at competitive prices. We work hard to keep our prices low." },
-    "experience": { "title": "Over 25 years of experience", "body": "Vårt Marked has been on Fossumveien since 2016, but our experience in the trade goes back more than 25 years. We know our customers and their needs across many different cultures." }
+    "fresh": {
+      "title": "Always fresh",
+      "body": "We receive fresh vegetables and fruit every day to guarantee the best quality for our customers."
+    },
+    "international": {
+      "title": "International food",
+      "body": "Products from Turkey, Thailand, Iran, Russia, Greece and many other countries — all in one place."
+    },
+    "prices": {
+      "title": "Good prices",
+      "body": "Quality products at competitive prices. We work hard to keep our prices low."
+    },
+    "experience": {
+      "title": "Over 25 years of experience",
+      "body": "Vårt Marked has been on Fossumveien since 2016, but our experience in the trade goes back more than 25 years. We know our customers and their needs across many different cultures."
+    }
   },
   "about": {
     "title": "About Vårt Marked",
     "p1": "Vårt Marked opened its doors on Fossumveien in Oslo in 2016 and has been a trusted neighbourhood grocery store ever since. Our experience, however, goes back more than 25 years — from earlier years in another city, under another name. With an average of more than 3000 items, we represent many different countries and cultures.",
     "p2": "Here you will find products from Norway, Turkey, Thailand, Iran, Russia, Greece and many other countries. It matters to us that every customer finds what they need — whatever culture they come from.",
     "p3": "Can't find what you are looking for? Get in touch and we will check whether we can bring the item in. We work continuously to maintain the quality of our products.",
-    "p4": "Our goal is to get better every single day and to give our customers the best service we can offer. Thank you for shopping with us!"
+    "p4": "Our goal is to get better every single day and to give our customers the best service we can offer. Thank you for shopping with us!",
+    "local": "The store is on Fossumveien at Stovner, right next to Stovner senter, serving all of Groruddalen — Stovner, Fossum, Vestli, Rommen, Romsås and Haugenstua. A short walk from Stovner metro station, with parking right outside."
   },
   "products": {
     "title": "Our products",
     "subtitle": "Over 3000 items from around the world — everything you need under one roof.",
-    "vegetables": { "title": "Fresh vegetables", "body": "Tomatoes, cucumbers, peppers, onions, broccoli and much more — delivered fresh every day." },
-    "fruit": { "title": "Fruit and berries", "body": "Seasonal fruit from around the world. Apples, bananas, oranges, grapes and exotic fruit." },
-    "meat": { "title": "Meat and chicken", "body": "Fresh meat, chicken and halal products. Quality you can rely on." },
-    "fish": { "title": "Fish and seafood", "body": "Fresh and frozen fish and seafood. A wide selection for every taste." },
-    "dairy": { "title": "Dairy products", "body": "Milk, cheese, yoghurt and butter. Norwegian and international brands." },
-    "bakery": { "title": "Bakery", "body": "Fresh bread, pita, lavash and other baked goods from different cultures." },
-    "specialties": { "title": "International specialities", "body": "Olives, spices, tahini, hummus, bulgur, rice and specialities from many different countries." }
+    "vegetables": {
+      "title": "Fresh vegetables",
+      "body": "Tomatoes, cucumbers, peppers, onions, broccoli and much more — delivered fresh every day."
+    },
+    "fruit": {
+      "title": "Fruit and berries",
+      "body": "Seasonal fruit from around the world. Apples, bananas, oranges, grapes and exotic fruit."
+    },
+    "meat": {
+      "title": "Meat and chicken",
+      "body": "Fresh meat, chicken and halal products. Quality you can rely on."
+    },
+    "fish": {
+      "title": "Fish and seafood",
+      "body": "Fresh and frozen fish and seafood. A wide selection for every taste."
+    },
+    "dairy": {
+      "title": "Dairy products",
+      "body": "Milk, cheese, yoghurt and butter. Norwegian and international brands."
+    },
+    "bakery": {
+      "title": "Bakery",
+      "body": "Fresh bread, pita, lavash and other baked goods from different cultures."
+    },
+    "specialties": {
+      "title": "International specialities",
+      "body": "Olives, spices, tahini, hummus, bulgur, rice and specialities from many different countries."
+    }
   },
-  "gallery": { "title": "Photos from the store", "subtitle": "Take a look inside Vårt Marked before you visit.", "open": "Open image", "close": "Close", "prev": "Previous image", "next": "Next image" },
+  "gallery": {
+    "title": "Photos from the store",
+    "subtitle": "Take a look inside Vårt Marked before you visit.",
+    "open": "Open image",
+    "close": "Close",
+    "prev": "Previous image",
+    "next": "Next image"
+  },
   "contact": {
     "title": "Visit us",
     "subtitle": "We look forward to welcoming you to the store.",
@@ -45,10 +99,24 @@
     "infoTitle": "Contact information",
     "acceptTitle": "We accept:",
     "mapTitle": "Vårt Marked – Fossumveien 60, Oslo",
-    "days": { "mon": "Monday", "tue": "Tuesday", "wed": "Wednesday", "thu": "Thursday", "fri": "Friday", "sat": "Saturday", "sun": "Sunday" },
-    "payment": { "contactless": "Contactless", "cash": "Cash" }
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "payment": {
+      "contactless": "Contactless",
+      "cash": "Cash"
+    }
   },
-  "footer": { "copy": "© 2016–2026 Vårt Marked. All rights reserved.", "orgNr": "Org. no." },
+  "footer": {
+    "copy": "© 2016–2026 Vårt Marked. All rights reserved.",
+    "orgNr": "Org. no."
+  },
   "cookie": {
     "title": "We use cookies",
     "body": "We use necessary cookies to make the site work. The Google map is loaded only if you accept.",
@@ -59,6 +127,35 @@
     "mapEnable": "Show map",
     "openSettings": "Cookie settings"
   },
-  "whatsapp": { "label": "Message us on WhatsApp", "message": "Hi! I have a question about Vårt Marked." },
-  "theme": { "toLight": "Switch to light theme", "toDark": "Switch to dark theme" }
+  "whatsapp": {
+    "label": "Message us on WhatsApp",
+    "message": "Hi! I have a question about Vårt Marked."
+  },
+  "theme": {
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "hvor": {
+      "q": "Where is Vårt Marked located?",
+      "a": "Vårt Marked is at Fossumveien 60, 0988 Oslo — right next to Stovner senter, a few minutes on foot from Stovner metro station. There is parking right outside the store."
+    },
+    "apent": {
+      "q": "What are the opening hours?",
+      "a": "We are open every day: Monday to Saturday 08:00–21:00 and Sunday 10:00–19:00."
+    },
+    "halal": {
+      "q": "Do you sell halal meat?",
+      "a": "Yes. We have fresh halal meat and chicken, as well as fish and seafood."
+    },
+    "land": {
+      "q": "Which countries do your products come from?",
+      "a": "We carry over 3000 items from Norway, Turkey, Thailand, Iran, Russia, Greece, Pakistan, India and many other countries — vegetables, spices, rice, bakery and specialities."
+    },
+    "bestille": {
+      "q": "Can you order an item you do not stock?",
+      "a": "Yes. Contact us on WhatsApp or call 92 24 90 05 and we will check whether we can bring the item in."
+    }
+  }
 }

@@ -54,6 +54,10 @@ public static class SeoHead
         sb.Append(JsonSerializer.Serialize(JsonLd(locale, description), JsonAyar)).Append('\n');
         Satir("</script>");
 
+        Satir("<script type=\"application/ld+json\">");
+        sb.Append(JsonSerializer.Serialize(FaqJsonLd(locale, ceviri), JsonAyar)).Append('\n');
+        Satir("</script>");
+
         return sb.ToString();
     }
 
@@ -62,6 +66,8 @@ public static class SeoHead
     {
         ["@context"] = "https://schema.org",
         ["@type"] = "GroceryStore",
+        // Sabit @id: butun dillerde AYNI isletme oldugunu soyler, yoksa Google 9 ayri isletme gorebilir
+        ["@id"] = $"{Site.Domain}/#isletme",
         ["name"] = Site.Name,
         ["description"] = description,
         ["url"] = Site.Domain + locale.Path,
@@ -93,8 +99,38 @@ public static class SeoHead
             ["opens"] = h.Opens,
             ["closes"] = h.Closes,
         }).ToArray(),
+        ["hasMap"] = $"https://www.google.com/maps/search/?api=1&query={Site.Lat},{Site.Lng}",
+        ["areaServed"] = Site.AreaServed.Select(a => new Dictionary<string, object?>
+        {
+            ["@type"] = "Place",
+            ["name"] = a,
+        }).ToArray(),
+        ["knowsLanguage"] = Locales.All.Select(l => l.Hreflang).ToArray(),
+        ["publicAccess"] = true,
         ["sameAs"] = Site.SameAs,
         ["inLanguage"] = Locales.All.Select(l => l.Hreflang).ToArray(),
+    };
+
+    /// <summary>
+    /// FAQPage semasi. Google'in one cikan yanitlari ve AI arama motorlari icin en etkili yapi:
+    /// soru-cevap ciftleri dogrudan yanit olarak gosterilebilir.
+    /// </summary>
+    private static Dictionary<string, object?> FaqJsonLd(Locale locale, JsonNode ceviri) => new()
+    {
+        ["@context"] = "https://schema.org",
+        ["@type"] = "FAQPage",
+        ["@id"] = $"{Site.Domain}{locale.Path}#sss",
+        ["inLanguage"] = locale.Hreflang,
+        ["mainEntity"] = Site.FaqKeys.Select(k => new Dictionary<string, object?>
+        {
+            ["@type"] = "Question",
+            ["name"] = Metin(ceviri, "faq", k, "q"),
+            ["acceptedAnswer"] = new Dictionary<string, object?>
+            {
+                ["@type"] = "Answer",
+                ["text"] = Metin(ceviri, "faq", k, "a"),
+            },
+        }).ToArray(),
     };
 
     private static string Metin(JsonNode kok, params string[] yol)

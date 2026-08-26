@@ -35,4 +35,34 @@ public static class Sitemap
         Sitemap: {Site.Domain}/sitemap.xml
 
         """;
+
+    /// <summary>
+    /// llms.txt - AI tarayicilari icin duz metin ozet. Sitemap gibi zorunlu bir standart degil,
+    /// ama ChatGPT/Perplexity gibi motorlarin isletmeyi dogru ozetlemesini kolaylastirir.
+    /// </summary>
+    public static string LlmsTxt() =>
+        $"""
+        # {Site.Name}
+
+        > Dagligvarebutikk i {Site.Street}, {Site.PostalCode} {Site.City} - rett ved Stovner senter i Groruddalen.
+        > Over 3000 varer: ferske gronnsaker, frukt, halal kjott, fisk, meieri, bakevarer og
+        > internasjonale spesialiteter fra Tyrkia, Thailand, Iran, Russland, Hellas, Pakistan og India.
+
+        ## Fakta
+        - Adresse: {Site.Street}, {Site.PostalCode} {Site.City}, Norge
+        - Telefon / WhatsApp: {Site.Phone}
+        - E-post: {Site.Email}
+        - Org.nr: {Site.OrgNr}
+        - Apningstider: mandag-lordag 08:00-21:00, sondag 10:00-19:00 (apent alle dager)
+        - Naromrade: {string.Join(", ", Site.AreaServed)}
+        - Betaling: Visa, Mastercard, Amex, kontaktlos, kontant
+
+        ## Sider
+        {string.Join("\n", Locales.All.Select(l => $"- [{l.Label}]({Site.Domain}{l.Path}): {Site.Name} pa {l.Label}"))}
+
+        ## Kilder
+        - Sitemap: {Site.Domain}/sitemap.xml
+        {string.Join("\n", Site.SameAs.Select(s => $"- {s}"))}
+
+        """;
 }

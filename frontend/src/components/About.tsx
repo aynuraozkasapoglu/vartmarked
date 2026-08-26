@@ -12,6 +12,7 @@ export default function About() {
           {t('about.p3')}<br /><br />
           <strong>{t('about.p4')}</strong>
         </p>
+        <p className="about-local">{t('about.local')}</p>
       </div>
     </section>
   )

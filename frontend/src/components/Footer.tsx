@@ -17,6 +17,7 @@ export default function Footer({ galeriVar }: { galeriVar: boolean }) {
           <li><a href="#om-oss">{t('nav.about')}</a></li>
           <li><a href="#produkter">{t('nav.products')}</a></li>
           {galeriVar && <li><a href="#bilder">{t('nav.gallery')}</a></li>}
+          <li><a href="#sporsmal">{t('nav.faq')}</a></li>
           <li><a href="#kontakt">{t('nav.contact')}</a></li>
           <li>
             <button type="button" className="footer-linkbutton" onClick={yenidenSor}>

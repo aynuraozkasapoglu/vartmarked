@@ -11,6 +11,7 @@ import Features from './components/Features'
 import About from './components/About'
 import Products from './components/Products'
 import Gallery from './components/Gallery'
+import Faq from './components/Faq'
 import Contact from './components/Contact'
 import MapSection from './components/MapSection'
 import Footer from './components/Footer'
@@ -49,6 +50,7 @@ export default function App({ locale }: { locale?: Locale }) {
         <About />
         <Products />
         <Gallery />
+        <Faq />
         <Contact />
         <MapSection />
       </main>

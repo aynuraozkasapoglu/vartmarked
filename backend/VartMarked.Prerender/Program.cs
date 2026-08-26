@@ -54,7 +54,8 @@ foreach (var locale in Locales.All)
 
 await File.WriteAllTextAsync(Path.Combine(dist, "sitemap.xml"), Sitemap.Xml(), new UTF8Encoding(false));
 await File.WriteAllTextAsync(Path.Combine(dist, "robots.txt"), Sitemap.Robots(), new UTF8Encoding(false));
-Console.WriteLine("  sitemap.xml + robots.txt yazildi");
+await File.WriteAllTextAsync(Path.Combine(dist, "llms.txt"), Sitemap.LlmsTxt(), new UTF8Encoding(false));
+Console.WriteLine("  sitemap.xml + robots.txt + llms.txt yazildi");
 Console.WriteLine($"\nTamam. Cikti: {dist}");
 return 0;
 

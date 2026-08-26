@@ -9,7 +9,7 @@ public static class Site
     public const string Email = "post@vartmarked.no";
     public const string OrgNr = "915 026 915";
     public const string Street = "Fossumveien 60";
-    public const string PostalCode = "0985";
+    public const string PostalCode = "0988";
     public const string City = "Oslo";
     public const string Country = "NO";
     public const double Lat = 59.962428;
@@ -32,4 +32,13 @@ public static class Site
         ("Saturday", "08:00", "21:00"),
         ("Sunday", "10:00", "19:00"),
     ];
+
+    /// <summary>Hizmet verilen mahalleler - Groruddalen. Yerel aramada esleme gucunu artirir.</summary>
+    public static readonly string[] AreaServed =
+    [
+        "Stovner", "Fossum", "Vestli", "Rommen", "Romsås", "Haugenstua", "Groruddalen", "Oslo",
+    ];
+
+    /// <summary>SSS anahtarlari - frontend'deki FAQ_KEYS ile ayni sirada olmali.</summary>
+    public static readonly string[] FaqKeys = ["hvor", "apent", "halal", "land", "bestille"];
 }

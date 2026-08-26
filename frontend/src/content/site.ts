@@ -11,7 +11,7 @@ export const SITE = {
   founded: 2016,
   address: {
     street: 'Fossumveien 60',
-    postalCode: '0985',
+    postalCode: '0988',
     city: 'Oslo',
     country: 'NO',
     lat: 59.962428,
@@ -63,3 +63,6 @@ export const HOURS = [
 // Marka adlari cevrilmez; yalniz iki tanesi dile bagli (contact.payment.*)
 export const PAYMENT_BRANDS = ['Visa', 'Mastercard', 'Amex'] as const
 export const PAYMENT_TRANSLATED = ['contactless', 'cash'] as const
+
+/** SSS anahtarlari - metinler locales/*.json icindeki faq.<anahtar>.{q,a} altinda. */
+export const FAQ_KEYS = ['hvor', 'apent', 'halal', 'land', 'bestille'] as const
