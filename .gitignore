@@ -4,6 +4,10 @@ frontend/dist/
 frontend/dist-ssr/
 *.log
 
+# Rider / IDE (paylasilan .run/ disinda)
+.idea/
+*.sln.DotSettings.user
+
 # .NET
 bin/
 obj/
