@@ -1,0 +1,14 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.log
+
+# .NET
+bin/
+obj/
+*.user
+
+# Ortam
+.env
+.env.local

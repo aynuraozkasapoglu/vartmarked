@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{4A3799CF-C4C8-4D21-A93C-022DD335B865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VartMarked.Web", "backend\VartMarked.Web\VartMarked.Web.csproj", "{D5E1F0BC-49D8-47B2-9D9F-0E7F4724F2C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VartMarked.Prerender", "backend\VartMarked.Prerender\VartMarked.Prerender.csproj", "{8B58B335-AEFC-4E1E-B6FA-9DD29E7A05F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E1F0BC-49D8-47B2-9D9F-0E7F4724F2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E1F0BC-49D8-47B2-9D9F-0E7F4724F2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E1F0BC-49D8-47B2-9D9F-0E7F4724F2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E1F0BC-49D8-47B2-9D9F-0E7F4724F2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B58B335-AEFC-4E1E-B6FA-9DD29E7A05F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B58B335-AEFC-4E1E-B6FA-9DD29E7A05F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B58B335-AEFC-4E1E-B6FA-9DD29E7A05F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B58B335-AEFC-4E1E-B6FA-9DD29E7A05F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5E1F0BC-49D8-47B2-9D9F-0E7F4724F2C0} = {4A3799CF-C4C8-4D21-A93C-022DD335B865}
+		{8B58B335-AEFC-4E1E-B6FA-9DD29E7A05F8} = {4A3799CF-C4C8-4D21-A93C-022DD335B865}
+	EndGlobalSection
+EndGlobal

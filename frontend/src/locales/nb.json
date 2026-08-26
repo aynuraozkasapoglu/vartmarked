@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Vårt Marked – Dagligvare, ferske grønnsaker og internasjonal mat i Oslo",
+    "description": "Over 3000 varer fra hele verden. Ferske grønnsaker, frukt, kjøtt og spesialiteter på Fossumveien i Oslo. Åpent 7 dager i uken.",
+    "langName": "Norsk"
+  },
+  "nav": {
+    "home": "Vårt Marked – forsiden",
+    "about": "Om oss",
+    "products": "Produkter",
+    "gallery": "Bilder",
+    "contact": "Kontakt",
+    "menu": "Meny",
+    "language": "Språk"
+  },
+  "hero": {
+    "badge": "Din lokale matbutikk siden 2016",
+    "title": "Ferske <1>grønnsaker</1> og internasjonal mat i Oslo",
+    "lead": "Over 3000 varer fra Norge, Tyrkia, Thailand, Iran, Hellas og mange andre land. Alltid ferskt, alltid gode priser.",
+    "ctaVisit": "Besøk oss",
+    "ctaCall": "Ring oss"
+  },
+  "stats": {
+    "yearsLabel": "år med erfaring",
+    "itemsLabel": "varer i butikken",
+    "daysLabel": "dager i uken"
+  },
+  "features": {
+    "fresh": { "title": "Alltid ferskt", "body": "Vi får inn ferske grønnsaker og frukt hver dag for å sikre den beste kvaliteten til våre kunder." },
+    "international": { "title": "Internasjonal mat", "body": "Varer fra Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land — alt på ett sted." },
+    "prices": { "title": "Gode priser", "body": "Kvalitetsprodukter til konkurransedyktige priser. Vi jobber hardt for å holde prisene lave." },
+    "experience": { "title": "Over 25 års erfaring", "body": "Vårt Marked har vært på Fossumveien siden 2016, men erfaringen vår i bransjen strekker seg over 25 år tilbake. Vi kjenner våre kunder og deres behov fra mange ulike kulturer." }
+  },
+  "about": {
+    "title": "Om Vårt Marked",
+    "p1": "Vårt Marked åpnet dørene på Fossumveien i Oslo i 2016, og har siden vært en pålitelig dagligvarebutikk i nabolaget. Erfaringen vår strekker seg likevel over 25 år tilbake — fra tidligere drift i en annen by, under et annet navn. Med gjennomsnittlig over 3000 varer representerer vi mange forskjellige land og kulturer.",
+    "p2": "Hos oss finner du varer fra Norge, Tyrkia, Thailand, Iran, Russland, Hellas og mange andre land. Det er viktig for oss at alle kundene våre finner det de trenger — uansett hvilken kultur de kommer fra.",
+    "p3": "Finner du ikke det du leter etter? Ta kontakt med oss, så sjekker vi om varen er mulig å få inn. Vi jobber hele tiden for å holde oppe kvaliteten på våre varer.",
+    "p4": "Vårt mål er å bli bedre og bedre for hver dag og å gi våre kunder den beste servicen vi kan tilby. Takk for at dere handler hos oss!"
+  },
+  "products": {
+    "title": "Våre produkter",
+    "subtitle": "Over 3000 varer fra hele verden — alt du trenger under ett tak.",
+    "vegetables": { "title": "Ferske grønnsaker", "body": "Tomater, agurker, paprika, løk, brokkoli og mye mer — levert ferskt hver dag." },
+    "fruit": { "title": "Frukt og bær", "body": "Sesongbasert frukt fra hele verden. Epler, bananer, appelsiner, druer og eksotiske frukter." },
+    "meat": { "title": "Kjøtt og kylling", "body": "Ferskt kjøtt, kylling og helal-produkter. Kvalitet du kan stole på." },
+    "fish": { "title": "Fisk og sjømat", "body": "Fersk og fryst fisk og sjømat. Bredt utvalg for alle smaker." },
+    "dairy": { "title": "Meieriprodukter", "body": "Melk, ost, yoghurt og smør. Norske og internasjonale merker." },
+    "bakery": { "title": "Bakevarer", "body": "Ferskt brød, pita, lavash og andre bakevarer fra ulike kulturer." },
+    "specialties": { "title": "Internasjonale spesialiteter", "body": "Oliven, krydder, tahini, hummus, bulgur, ris og spesialiteter fra mange forskjellige land." }
+  },
+  "gallery": {
+    "title": "Bilder fra butikken",
+    "subtitle": "Ta en titt inn i Vårt Marked før du besøker oss.",
+    "open": "Åpne bilde",
+    "close": "Lukk",
+    "prev": "Forrige bilde",
+    "next": "Neste bilde"
+  },
+  "contact": {
+    "title": "Besøk oss",
+    "subtitle": "Vi ser frem til å ønske deg velkommen i butikken.",
+    "hoursTitle": "Åpningstider",
+    "infoTitle": "Kontaktinformasjon",
+    "acceptTitle": "Vi aksepterer:",
+    "mapTitle": "Vårt Marked – Fossumveien 60, Oslo",
+    "days": {
+      "mon": "Mandag", "tue": "Tirsdag", "wed": "Onsdag", "thu": "Torsdag",
+      "fri": "Fredag", "sat": "Lørdag", "sun": "Søndag"
+    },
+    "payment": {
+      "contactless": "Kontaktløs",
+      "cash": "Kontant"
+    }
+  },
+  "footer": {
+    "copy": "© 2016–2026 Vårt Marked. Alle rettigheter reservert.",
+    "orgNr": "Org.nr"
+  },
+  "cookie": {
+    "title": "Vi bruker informasjonskapsler",
+    "body": "Vi bruker nødvendige informasjonskapsler for at nettstedet skal fungere. Kartet fra Google lastes kun hvis du godtar.",
+    "accept": "Godta alle",
+    "reject": "Kun nødvendige",
+    "more": "Les mer",
+    "mapBlocked": "Google Maps er blokkert fordi du ikke har godtatt informasjonskapsler.",
+    "mapEnable": "Vis kart",
+    "openSettings": "Innstillinger for informasjonskapsler"
+  },
+  "whatsapp": {
+    "label": "Skriv til oss på WhatsApp",
+    "message": "Hei! Jeg har et spørsmål om Vårt Marked."
+  },
+  "theme": { "toLight": "Bytt til lyst tema", "toDark": "Bytt til mørkt tema" }
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Vårt Marked – Cửa hàng thực phẩm, rau tươi và đồ ăn quốc tế tại Oslo",
+    "description": "Hơn 3000 mặt hàng từ khắp thế giới. Rau tươi, trái cây, thịt và đặc sản tại Fossumveien, Oslo. Mở cửa 7 ngày trong tuần.",
+    "langName": "Tiếng Việt"
+  },
+  "nav": { "home": "Vårt Marked – trang chủ", "about": "Về chúng tôi", "products": "Sản phẩm", "gallery": "Hình ảnh", "contact": "Liên hệ", "menu": "Menu", "language": "Ngôn ngữ" },
+  "hero": {
+    "badge": "Cửa hàng thực phẩm của khu phố bạn từ năm 2016",
+    "title": "<1>Rau</1> tươi và đồ ăn quốc tế tại Oslo",
+    "lead": "Hơn 3000 mặt hàng từ Na Uy, Thổ Nhĩ Kỳ, Thái Lan, Iran, Hy Lạp và nhiều quốc gia khác. Luôn tươi mới, luôn giá tốt.",
+    "ctaVisit": "Ghé thăm chúng tôi",
+    "ctaCall": "Gọi cho chúng tôi"
+  },
+  "stats": { "yearsLabel": "năm kinh nghiệm", "itemsLabel": "mặt hàng trong cửa hàng", "daysLabel": "ngày mỗi tuần" },
+  "features": {
+    "fresh": { "title": "Luôn tươi mới", "body": "Chúng tôi nhập rau và trái cây tươi mỗi ngày để bảo đảm chất lượng tốt nhất cho khách hàng." },
+    "international": { "title": "Đồ ăn quốc tế", "body": "Hàng hóa từ Thổ Nhĩ Kỳ, Thái Lan, Iran, Nga, Hy Lạp và nhiều quốc gia khác — tất cả ở một nơi." },
+    "prices": { "title": "Giá tốt", "body": "Sản phẩm chất lượng với giá cạnh tranh. Chúng tôi nỗ lực để giữ giá thấp." },
+    "experience": { "title": "Hơn 25 năm kinh nghiệm", "body": "Vårt Marked đã ở Fossumveien từ năm 2016, nhưng kinh nghiệm của chúng tôi trong ngành này đã hơn 25 năm. Chúng tôi hiểu khách hàng và nhu cầu của họ từ nhiều nền văn hóa khác nhau." }
+  },
+  "about": {
+    "title": "Về Vårt Marked",
+    "p1": "Vårt Marked mở cửa tại Fossumveien ở Oslo vào năm 2016 và từ đó luôn là một cửa hàng thực phẩm đáng tin cậy của khu phố. Tuy vậy, kinh nghiệm của chúng tôi đã hơn 25 năm — từ những năm trước ở một thành phố khác, với một cái tên khác. Với trung bình hơn 3000 mặt hàng, chúng tôi đại diện cho nhiều quốc gia và nền văn hóa.",
+    "p2": "Tại đây bạn sẽ tìm thấy hàng hóa từ Na Uy, Thổ Nhĩ Kỳ, Thái Lan, Iran, Nga, Hy Lạp và nhiều quốc gia khác. Điều quan trọng với chúng tôi là mọi khách hàng đều tìm được thứ mình cần — dù đến từ nền văn hóa nào.",
+    "p3": "Không tìm thấy thứ bạn cần? Hãy liên hệ với chúng tôi, chúng tôi sẽ xem có thể nhập về hay không. Chúng tôi liên tục làm việc để giữ vững chất lượng hàng hóa.",
+    "p4": "Mục tiêu của chúng tôi là mỗi ngày một tốt hơn và mang đến cho khách hàng dịch vụ tốt nhất có thể. Cảm ơn bạn đã mua sắm cùng chúng tôi!"
+  },
+  "products": {
+    "title": "Sản phẩm của chúng tôi",
+    "subtitle": "Hơn 3000 mặt hàng từ khắp thế giới — mọi thứ bạn cần dưới một mái nhà.",
+    "vegetables": { "title": "Rau tươi", "body": "Cà chua, dưa chuột, ớt chuông, hành, súp lơ xanh và nhiều hơn nữa — tươi mỗi ngày." },
+    "fruit": { "title": "Trái cây và quả mọng", "body": "Trái cây theo mùa từ khắp thế giới. Táo, chuối, cam, nho và trái cây nhiệt đới." },
+    "meat": { "title": "Thịt và gà", "body": "Thịt tươi, gà và sản phẩm halal. Chất lượng bạn có thể tin cậy." },
+    "fish": { "title": "Cá và hải sản", "body": "Cá và hải sản tươi và đông lạnh. Lựa chọn phong phú cho mọi khẩu vị." },
+    "dairy": { "title": "Sản phẩm từ sữa", "body": "Sữa, phô mai, sữa chua và bơ. Thương hiệu Na Uy và quốc tế." },
+    "bakery": { "title": "Bánh mì", "body": "Bánh mì tươi, pita, lavash và các loại bánh khác từ nhiều nền văn hóa." },
+    "specialties": { "title": "Đặc sản quốc tế", "body": "Ô liu, gia vị, tahini, hummus, bulgur, gạo và đặc sản từ nhiều quốc gia." }
+  },
+  "gallery": { "title": "Hình ảnh cửa hàng", "subtitle": "Hãy nhìn vào bên trong Vårt Marked trước khi ghé thăm.", "open": "Mở ảnh", "close": "Đóng", "prev": "Ảnh trước", "next": "Ảnh tiếp theo" },
+  "contact": {
+    "title": "Ghé thăm chúng tôi",
+    "subtitle": "Chúng tôi rất mong được đón bạn tại cửa hàng.",
+    "hoursTitle": "Giờ mở cửa",
+    "infoTitle": "Thông tin liên hệ",
+    "acceptTitle": "Chúng tôi chấp nhận:",
+    "mapTitle": "Vårt Marked – Fossumveien 60, Oslo",
+    "days": { "mon": "Thứ Hai", "tue": "Thứ Ba", "wed": "Thứ Tư", "thu": "Thứ Năm", "fri": "Thứ Sáu", "sat": "Thứ Bảy", "sun": "Chủ Nhật" },
+    "payment": { "contactless": "Không tiếp xúc", "cash": "Tiền mặt" }
+  },
+  "footer": { "copy": "© 2016–2026 Vårt Marked. Bảo lưu mọi quyền.", "orgNr": "Mã số doanh nghiệp" },
+  "cookie": {
+    "title": "Chúng tôi sử dụng cookie",
+    "body": "Chúng tôi dùng cookie cần thiết để trang web hoạt động. Bản đồ Google chỉ được tải nếu bạn đồng ý.",
+    "accept": "Chấp nhận tất cả",
+    "reject": "Chỉ cookie cần thiết",
+    "more": "Tìm hiểu thêm",
+    "mapBlocked": "Google Maps bị chặn vì bạn chưa chấp nhận cookie.",
+    "mapEnable": "Hiện bản đồ",
+    "openSettings": "Cài đặt cookie"
+  },
+  "whatsapp": { "label": "Nhắn tin cho chúng tôi trên WhatsApp", "message": "Xin chào! Tôi có một câu hỏi về Vårt Marked." },
+  "theme": { "toLight": "Chuyển sang giao diện sáng", "toDark": "Chuyển sang giao diện tối" }
+}
